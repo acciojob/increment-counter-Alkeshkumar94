@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             // Function to update the counter and show an alert
             function incrementCounter() {
                 // Display the current counter value in an alert
-                alert('Un-incremented value: ' + counterValue);
+                alert('un-incremented value: ' + counterValue);
 
                 // Increment the counter value
                 counterValue++;
