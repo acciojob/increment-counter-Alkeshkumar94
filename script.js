@@ -20,4 +20,5 @@ document.addEventListener('DOMContentLoaded', function () {
 
             // Attach the incrementCounter function to the button click event
             incrementButton.addEventListener('click', incrementCounter);
+	
         });
