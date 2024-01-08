@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', function () {
+
             // Get the counter element and the increment button
             const counterElement = document.getElementById('counter');
             const incrementButton = document.getElementById('incrementBtn');
@@ -15,10 +15,8 @@ document.addEventListener('DOMContentLoaded', function () {
                 counterValue++;
 
                 // Update the counter element's text content
-                counterElement.textContent = counterValue;
+                counterElement.innerText = counterValue;
             }
 
             // Attach the incrementCounter function to the button click event
             incrementButton.addEventListener('click', incrementCounter);
-	
-        });
