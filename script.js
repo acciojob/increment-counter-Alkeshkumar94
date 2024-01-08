@@ -15,7 +15,7 @@
                 counterValue++;
 
                 // Update the counter element's text content
-                counterElement.innerText = counterValue;
+                counterElement.textContent = counterValue;
             }
 
             // Attach the incrementCounter function to the button click event
