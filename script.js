@@ -4,7 +4,7 @@
             const incrementButton = document.getElementById('incrementBtn');
 
             // Initialize counter value
-            let counterValue = 0;
+            let counterValue = 1;
 
             // Function to update the counter and show an alert
             function incrementCounter() {
